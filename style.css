@@ -1,0 +1,43 @@
+/* 공통 */
+:root {
+  /* size */
+  --SignIn_SignUp-size: 25px;
+  --login-padding: 10px;
+}
+body {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+/* container 시작 */
+
+/* header start */
+ul {
+  padding-left: 0;
+}
+li {
+  list-style: none;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.login {
+  font-size: var(--SignIn_SignUp-size);
+  padding: var(--login-padding);
+  font-weight: bold;
+}
+.signIn_signUp {
+  display: flex;
+  justify-content: end;
+}
+
+.logo img {
+  width: 300px;
+}
