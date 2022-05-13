@@ -2,14 +2,19 @@
 :root {
   /* size */
   --SignIn_SignUp-size: 25px;
+  --basicFont-size: 23px;
+  /* padding */
   --login-padding: 10px;
 }
 body {
-  margin: 0px;
+  margin: 0;
   display: flex;
   justify-content: center;
 }
-
+a {
+  text-decoration: none;
+  color: #000;
+}
 /* container 시작 */
 
 /* header start */
@@ -26,6 +31,7 @@ li {
 header {
   display: flex;
   flex-direction: column;
+  margin-bottom: 150px;
 }
 
 .login {
@@ -38,6 +44,41 @@ header {
   justify-content: end;
 }
 
+/* logo start */
 .logo img {
   width: 300px;
+}
+/* menu_bar start */
+/* .menu_bar {
+  display: flex;
+  justify-content: space-around;
+}
+.menu_bar li {
+  font-size: var(--basicFont-size);
+} */
+
+/* introduce_me start */
+.introduce_me {
+  display: flex;
+}
+.introduce_me .itsMe img {
+  width: 50%;
+  margin-left: 10%;
+}
+.itsMe {
+  width: 50%;
+}
+.introduce_txt {
+  width: 50%;
+  margin-right: 10%;
+  font-size: 20px;
+}
+
+/* letsGo start */
+.letsGo {
+  text-align: center;
+}
+.letsGo .gogo {
+  font-size: 30px;
+  background: rgb(9, 193, 229);
 }
