@@ -1,0 +1,31 @@
+mvc(model view control)
+
+브라우저에게 응답하게 해주는 것: 웹서버
+데이터베이스에서 응답하는 것: 왓스
+
+넓게 vs 깊게
+=> 초보 개발자는 넓게, 아는 지식을 넓히는게 중요, 아는게 많아질 수록 공부가 재밌어진다
+=> 아는게 많고 깊게 시작할 때, 하나를 알면 열을 알 수 있다.
+
+=> 초반부터 깊게하면 재미가 없다. 
+
+express 모듈 설치
+npm install express --save
+
+Cannot GET / 
+-> /(루트)경로를 찾을 수 없다는 의미
+-> 서버에서 루트 경로를 만들어 주면 됌
+
+npm install ejs 
+-> ejs 모듈 다운받는 법
+
+< package.json 다운 받는 법 >
+npm init
+
++ 엔터 안치고 한번에 만드는 방법
+
+npm init -y
+
+
+package.json만 있으면
+-> npm install만 해주면 dependency에 잇는 모듈들을 설치할 수 있음
